@@ -1,4 +1,4 @@
-import infos from "~/data/Infos";
+import infos from "~/data/infos";
 
 const getAll = () => infos
 
