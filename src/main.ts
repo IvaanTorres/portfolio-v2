@@ -1,6 +1,17 @@
 import { createApp } from 'vue'
-import './style.css'
 import 'uno.css'
-import App from './App.vue'
+import '@unocss/reset/tailwind.css'
+import App from "~/App.vue";
+import router from "~/router";
 
-createApp(App).mount('#app')
+import Particles from "vue3-particles";
+
+import * as Aos from "aos";
+import "aos/dist/aos.css";
+
+Aos.init();
+
+createApp(App)
+  .use(router)
+  .use(Particles)
+  .mount("#app");
