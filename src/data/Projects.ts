@@ -14,7 +14,7 @@ const projects = [
     Achivements: While the APP is quite simple functionally, It helped me to get to know the devops culture, best practices and the Socket.IO API.`,
     image: '',
     video: 'https://www.youtube.com/embed/4q-aYWbOQ1M',
-    url: 'https://thunder-link.herokuapp.com/',
+    url: 'https://thunder-link.netlify.app/',
     github: 'https://github.com/IvaanTorres/ui-real-time-chat-app',
     isFeatured: true,
     type: 'web2',
