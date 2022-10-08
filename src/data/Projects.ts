@@ -1,4 +1,4 @@
-import { find } from "~/services/Skill"
+import { find } from '~/services/Skill'
 
 const projects = [
   {
@@ -13,7 +13,7 @@ const projects = [
     
     Achivements: While the APP is quite simple functionally, It helped me to get to know the devops culture, best practices and the Socket.IO API.`,
     image: '',
-    video: '',
+    video: 'https://www.youtube.com/embed/4q-aYWbOQ1M',
     url: 'https://thunder-link.herokuapp.com/',
     github: 'https://github.com/IvaanTorres/ui-real-time-chat-app',
     isFeatured: true,
@@ -36,7 +36,7 @@ const projects = [
       find('cypress'),
       find('bash'),
       find('githubactions'),
-    ]
+    ],
   },
   {
     id: 2,
@@ -54,11 +54,7 @@ const projects = [
     type: 'web2',
     createdAt: '07/06/2021',
     order: 2,
-    skills: [
-      find('java'),
-      find('css'),
-      find('postgresql'),
-    ]
+    skills: [find('java'), find('css'), find('postgresql')],
   },
   {
     id: 3,
@@ -76,10 +72,7 @@ const projects = [
     type: 'web2',
     createdAt: '16/12/2021',
     order: 3,
-    skills: [
-      find('sass'),
-      find('bem'),
-    ]
+    skills: [find('sass'), find('bem')],
   },
   {
     id: 4,
@@ -93,11 +86,7 @@ const projects = [
     type: 'web2',
     createdAt: '05/01/2022',
     order: 4,
-    skills: [
-      find('tailwindcss'),
-      find('vuejs'),
-      find('typescript'),
-    ]
+    skills: [find('tailwindcss'), find('vuejs'), find('typescript')],
   },
   {
     id: 5,
@@ -118,10 +107,7 @@ const projects = [
     type: 'web2',
     createdAt: '05/11/2021',
     order: 5,
-    skills: [
-      find('php'),
-      find('postgresql'),
-    ]
+    skills: [find('php'), find('postgresql')],
   },
   {
     id: 6,
@@ -140,10 +126,7 @@ const projects = [
     type: 'web2',
     createdAt: '16/01/2020',
     order: 6,
-    skills: [
-      find('php'),
-      find('css'),
-    ]
+    skills: [find('php'), find('css')],
   },
 ]
 
