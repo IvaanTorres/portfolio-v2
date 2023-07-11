@@ -3,6 +3,43 @@ import { find } from '~/services/Skill'
 const projects = [
   {
     id: 1,
+    name: 'E-Commerce - DXP',
+    description: `
+    "Sweet Candy" is an ambitious E-Commerce project which is characterized by offering a front-office (online store), which allows the purchase of products that the store itself provides, in this case candy, as well as giving access to many other functions such as the wish list, customer order management, payment gateway ...
+    
+    Plus, the administrator has access to the back-office (management panel) where you can organize the store quickly and accurately. It offers functionalities such as the management of products, categories, brands and catalogs, as well as their respective discounts. In addition, retailers, suppliers and other logistics are custom-configured and order management can be organized in a simple way thanks to its statuses.
+    Finally, a system of statistics and results is provided in order to know which products work best, the most successful catalogs or the number of sales and profits acquired in the last days, months and years.`,
+    image: '',
+    video: '',
+    url: 'https://ecommerce-dxp.vercel.app/',
+    github: 'https://github.com/IvaanTorres/ecommerce-dxp',
+    isFeatured: true,
+    type: 'web2',
+    createdAt: 'Currently in development',
+    order: 6,
+    skills: [
+      find('nextjs'), 
+      find('reactjs'), 
+      find('typescript'), 
+      find('laravel'), 
+      find('javascript'), 
+      find('sass'), 
+      find('php'), 
+      find('postgresql'), 
+      find('storybook'), 
+      find('testing-library'),
+      find('jest'),
+      find('phpunit'),
+      find('playwright'),
+      find('githubactions'),
+      find('apolloclient'),
+      find('graphql'),
+      find('html'),
+      find('css'),
+  ],
+  },
+  {
+    id: 2,
     name: 'Real Time Chat App',
     description: `This project consists on a simple APP which offers the possibility to chat with other users in real time.
     Featured:
@@ -27,6 +64,7 @@ const projects = [
       find('pinia'),
       find('docker'),
       find('nodejs'),
+      find('expressjs'),
       find('mongodb'),
       find('socketio'),
       find('sonarqube'),
@@ -39,7 +77,7 @@ const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: 'Travel Agency',
     description: `Final project developed in team - Associate Degree (ASc)
     Sol Experience consists in creating packs and experiences for every user who wants to travel to Málaga.
@@ -57,7 +95,7 @@ const projects = [
     skills: [find('java'), find('css'), find('postgresql')],
   },
   {
-    id: 3,
+    id: 4,
     name: 'CSS Framework',
     description: `I made this CSS Framework with the objective of learning how SASS & BEM Methodology work together.
     I'm updating this project constantly, adding new features everytime.
@@ -68,14 +106,14 @@ const projects = [
     video: 'https://www.youtube.com/embed/iEjb2Fo4Vj0',
     url: '',
     github: 'https://github.com/IvaanTorres/css-framework',
-    isFeatured: true,
+    isFeatured: false,
     type: 'web2',
     createdAt: '16/12/2021',
     order: 3,
     skills: [find('sass'), find('bem')],
   },
   {
-    id: 4,
+    id: 5,
     name: 'Web Portfolio',
     description: `I developed this web portfolio in order to show my progress in web development.`,
     image: '',
@@ -89,7 +127,7 @@ const projects = [
     skills: [find('tailwindcss'), find('vuejs'), find('typescript')],
   },
   {
-    id: 5,
+    id: 6,
     name: 'PHP Framework',
     description: `I've created a personalized framework using just PHP Vanilla, which is based on MVC and has its own routing system.
     It uses different external libraries such as:
@@ -109,25 +147,25 @@ const projects = [
     order: 5,
     skills: [find('php'), find('postgresql')],
   },
-  {
-    id: 6,
-    name: 'PHP Forum',
-    description: `Travel Earth is a simple project developed personally in 2019 with the objective of starting to learn PHP and the use of JQuery library.
-    I developed this project using PHP in Front-End side, fetching data from the database using MySQL.
-    This project helped me to understand the goal of the language and the fantastic idea of dynamically change the web retrieving data from the database.
+  // {
+  //   id: 6,
+  //   name: 'PHP Forum',
+  //   description: `Travel Earth is a simple project developed personally in 2019 with the objective of starting to learn PHP and the use of JQuery library.
+  //   I developed this project using PHP in Front-End side, fetching data from the database using MySQL.
+  //   This project helped me to understand the goal of the language and the fantastic idea of dynamically change the web retrieving data from the database.
     
-    Achivement: Thanks to this project, I learned how I can use PHP in Front-End side to develop a dynamic website.
-    It has been my first approach to PHP and MySQL.`,
-    image: '',
-    video: 'https://www.youtube.com/embed/D9FQCTZVtcY',
-    url: '',
-    github: 'https://github.com/IvaanTorres/smr-php-forum',
-    isFeatured: false,
-    type: 'web2',
-    createdAt: '16/01/2020',
-    order: 6,
-    skills: [find('php'), find('css')],
-  },
+  //   Achivement: Thanks to this project, I learned how I can use PHP in Front-End side to develop a dynamic website.
+  //   It has been my first approach to PHP and MySQL.`,
+  //   image: '',
+  //   video: 'https://www.youtube.com/embed/D9FQCTZVtcY',
+  //   url: '',
+  //   github: 'https://github.com/IvaanTorres/smr-php-forum',
+  //   isFeatured: false,
+  //   type: 'web2',
+  //   createdAt: '16/01/2020',
+  //   order: 6,
+  //   skills: [find('php'), find('css')],
+  // },
 ]
 
 export default projects

@@ -65,12 +65,6 @@ const skills = {
       order: 4
     },
     {
-      id: 'mongodb',
-      name: 'MongoDB',
-      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
-      order: 5
-    },
-    {
       id: 'laravel',
       name: 'Laravel',
       icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg',
@@ -92,9 +86,9 @@ const skills = {
       order: 1
     },
     {
-      id: 'cypress',
-      name: 'Cypress',
-      icon: 'https://i0.wp.com/blog.knoldus.com/wp-content/uploads/2022/03/cypress.png?fit=364%2C364&ssl=1',
+      id: 'playwright',
+      name: 'Playwright',
+      icon: 'https://seeklogo.com/images/P/playwright-logo-22FA8B9E63-seeklogo.com.png',
       order: 3
     },
     {
@@ -121,7 +115,7 @@ const skills = {
     {
       id: 'docker',
       name: 'Docker',
-      icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg',
+      icon: 'https://blog.systerel.fr/images/docker/docker-logo.png',
       order: 1
     },
     {
@@ -178,6 +172,30 @@ const skills = {
     {
       id: 'bem',
       name: 'BEM',
+    },
+    {
+      id: 'cypress',
+      name: 'Cypress',
+    },
+    {
+      id: 'mongodb',
+      name: 'Mongo DB',
+    },
+    {
+      id: 'expressjs',
+      name: 'ExpressJS',
+    },
+    {
+      id: 'nextjs',
+      name: 'NextJS',
+    },
+    {
+      id: 'storybook',
+      name: 'Storybook',
+    },
+    {
+      id: 'apolloclient',
+      name: 'Apollo Client',
     },
   ]
 }

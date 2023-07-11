@@ -1,28 +1,19 @@
 <template>
   <!-- <section id="projects" class="grid grid-cols-1 md:grid-cols-2"> -->
   <section id="projects" class="grid grid-cols-1">
-  <div
-      class="flex flex-col justify-between text-base py-12 bg-yellow-400 px-5 sm:px-20 text-justify"
-    >
+    <div class="flex flex-col justify-between text-base py-12 bg-yellow-400 px-5 sm:px-20 text-justify">
       <div>
         <h3 class="text-3xl font-bold mb-5">Web Development</h3> <!-- TODO: Change title -->
-        <div class="mb-3">
-          It's here where I show all my progress in web development creating
-          new projects and challenges.
-        </div>
-        <div class="mb-3">
-          If you're interested, don't hesitate to access and check out the
-          specific project on GitHub. <br />
-          There's also a link to the project on Internet and a YouTube video where I personally explain how the
-          project works and has been created.
+        <div class="w-2/3">
+          <p class="mb-2">Just here you can see each project that I have personally carried out, which have made me more and more eager to
+          see what web development can bring us in the future.</p>
+          <p>Feel free to access the respective repositories on github or visit the project already in production :)</p>
         </div>
       </div>
       <div>
         <router-link
-          class="inline-block mt-6 bg-black shadow-lg shadow-gray-900 hover:shadow-xl hover:shadow-gray-900 px-10 py-3 rounded-full ease-in duration-150 text-white font-bold"
-          to="/projects/web"
-          >Open</router-link
-        >
+          class="inline-block mt-6 bg-black shadow-md shadow-gray-900 hover:shadow-lg hover:shadow-gray-900 px-10 py-3 rounded-full ease-in duration-150 text-white font-bold"
+          to="/projects/web">Let's go !</router-link>
       </div>
     </div>
     <!-- TODO: Change the other URL for "/projects/blockchain" -->

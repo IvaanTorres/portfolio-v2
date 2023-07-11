@@ -7,6 +7,7 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    Modal: typeof import('./src/components/atoms/Modal.vue')['default']
     MyAboutMe: typeof import('./src/components/molecules/MyAboutMe.vue')['default']
     MyHeader: typeof import('./src/components/molecules/MyHeader.vue')['default']
     MyMainProjects: typeof import('./src/components/molecules/MyMainProjects.vue')['default']
