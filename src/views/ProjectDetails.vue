@@ -90,13 +90,13 @@
       :description="project.description"
       subject="Description"
       :actions="[
-        {
+        project.github && {
           image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
           link: project.github,
           isLink: true,
           text: 'Go to Github repository',
         },
-        {
+        project.url && {
           image: 'https://www.svgrepo.com/show/59143/internet.svg',
           link: project.url,
           isLink: true,

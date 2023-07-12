@@ -25,6 +25,8 @@ const props = defineProps({
     required: false
   }
 })
+
+console.log(props.actions);
 </script>
 
 <template>
@@ -36,7 +38,7 @@ const props = defineProps({
         {{ title }}
       </div>
       <div class="ml-auto flex">
-        <div v-for="action in actions" class="flex items-center">
+        <div v-for="action in actions?.filter(a => a.image)" class="flex items-center">
           <a
             v-if="action.isLink"
             :href="action.link"
