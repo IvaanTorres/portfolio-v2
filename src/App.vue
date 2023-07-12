@@ -17,7 +17,7 @@
           type="mdi"
           :path="mdiClose"
           @click="toggleHamburguer()"
-          class="absolute top-2 right-13 m-10 mt-6 lg:hidden text-white my-3 cursor-pointer w-10 h-10"
+          class="absolute top-1 right-0 m-10 mt-6 lg:hidden text-white my-3 cursor-pointer w-10 h-10"
         ></svg-icon>
         <router-link
           class="font-bold text-white py-4"

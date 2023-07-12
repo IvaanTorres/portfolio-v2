@@ -21,13 +21,13 @@
             src="../assets/in-development.jpg"
             alt="No video available"
           /> -->
-          <div class="flex flex-col items-center justify-center bg-blue-100 min-h-full" v-else>
+          <div class="h-60 md:h-auto flex flex-col items-center justify-center bg-blue-100 min-h-full" v-else>
             <img
-              class="w-75 h-auto aspect-square object-cover"
+              class="w-40 md:w-75 h-auto aspect-square object-cover"
               src="../assets/dev-icon.png"
               alt="No video available"
             />
-            <p class="mt-20 text-4xl font-extrabold">Soon available...</p>
+            <p class="mt-5 md:mt-20 text-4xl font-extrabold">Soon available...</p>
           </div>
           <div class="m-3">
             <a
