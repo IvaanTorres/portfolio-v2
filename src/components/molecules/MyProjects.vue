@@ -1,7 +1,7 @@
 <template>
   <!-- <section id="projects" class="grid grid-cols-1 md:grid-cols-2"> -->
   <section id="projects" class="grid grid-cols-1">
-    <div class="flex flex-col justify-between text-base py-12 bg-yellow-400 px-5 sm:px-20 text-justify">
+    <div class="flex flex-col justify-between text-base py-12 bg-yellow-400 px-5 sm:px-20">
       <div>
         <h3 class="text-3xl font-bold mb-5">Web Development</h3> <!-- TODO: Change title -->
         <div class="lg:w-2/3">
