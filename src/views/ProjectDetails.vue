@@ -27,7 +27,7 @@
               src="../assets/dev-icon.png"
               alt="No video available"
             />
-            <p class="mt-5 md:mt-20 text-4xl font-extrabold">Soon available...</p>
+            <p class="mt-5 md:mt-20 text-2xl md:text-4xl font-extrabold">Soon available...</p>
           </div>
           <div class="m-3">
             <a
