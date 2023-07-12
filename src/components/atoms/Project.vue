@@ -13,6 +13,8 @@
           .slice(0, 4)"
         :key="skill?.id"
         :name="skill?.name"
+        :color="skill?.color"
+        :background-color="skill?.backgroundColor"
       />
       <div v-if="data.skills.length > 3">...</div>
     </div>

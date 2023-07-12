@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="h-full">
     <div class="pt-10 pb-10 h-full w-full">
       <div
         class="grid grid-cols-1 xl:grid-cols-5 gap-10 mx-5 md:mx-40 xl:mx-20 m-auto h-full"
@@ -52,25 +52,33 @@
             /></a>
           </div>
         </div>
-        <div class="col-span-3 md:col-span-2">
-          <h1 class="text-3xl mb-5 font-extrabold">{{ project?.name }}</h1>
-          <div class="flex flex-col mb-5">
-            <div class="description" ref="description">
-              <div>{{ project?.description }}</div>
+        <div class="flex flex-col justify-between col-span-3 md:col-span-2">
+          <!-- Project info -->
+          <div>
+            <h1 class="text-3xl mb-5 font-extrabold">{{ project?.name }}</h1>
+            <div class="flex flex-col mb-5">
+              <div class="description" ref="description">
+                <div>{{ project?.description }}</div>
+              </div>
+              <button 
+                v-if="isDescriptionOverflow && windowWidth >= 1280" 
+                :onclick="toggleModal"
+                class="ml-auto mt-3 px-5 py-1 bg-yellow-400 hover:bg-yellow-500 text-black font-bold ease-in duration-75 rounded-full"
+              >See more</button>
             </div>
-            <button 
-              v-if="isDescriptionOverflow && windowWidth >= 1280" 
-              :onclick="toggleModal"
-              class="ml-auto mt-3 px-5 py-1 bg-yellow-400 hover:bg-yellow-500 text-black font-bold ease-in duration-75 rounded-full"
-            >See more</button>
           </div>
-          <p class="font-semibold mb-5">Created at: {{ project?.createdAt }}</p>
-          <div class="flex flex-wrap gap-2">
-            <SkillTag
-              v-for="skill of project?.skills"
-              :key="skill.id"
-              :name="skill.name"
-            />
+          <!-- Data/state and skills -->
+          <div>
+            <p class="font-semibold mb-5">Created at: {{ project?.createdAt }}</p>
+            <div class="flex flex-wrap gap-2">
+              <SkillTag
+                v-for="skill of project?.skills"
+                :key="skill.id"
+                :name="skill.name"
+                :color="skill.color"
+                :background-color="skill.backgroundColor"
+              />
+            </div>
           </div>
         </div>
       </div>
